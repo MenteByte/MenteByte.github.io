@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portafolio MenteByte</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <img src="img/mentbyte.png" alt="Logo MenteByte" class="logo" onclick="toggleEnlarge(this)">
+        <h1>MenteByte</h1>
+      </div>
+    <nav>
+        <div class="menu">
+        <ul>
+            <li><a href="#about" onmouseover="toggleEnlarge(this)" onmouseout="toggleEnlarge(this)">Sobre mí</a></li>
+            <li><a href="#skills" onmouseover="toggleEnlarge(this)" onmouseout="toggleEnlarge(this)">Habilidades</a></li>
+            <li><a href="#portfolio" onmouseover="toggleEnlarge(this)" onmouseout="toggleEnlarge(this)">Portafolio</a></li>
+          </ul>
+        </div>          
+    </nav>
+    <div class="theme-switch">
+      <i class="fas fa-sun"></i>
+      <label class="switch">
+        <input type="checkbox" id="toggle-theme">
+        <span class="slider round"></span>
+      </label>
+      <i class="fas fa-moon"></i>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 class="animated-underline">Sobre mí</h2>
+    <p>Soy un desarrollador web y programador con experiencia en Python y Lua. Me apasiona crear soluciones digitales innovadoras y mejorar la experiencia de usuario.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="animated-underline">Habilidades</h2>
+    <ul>
+      <li>Desarrollo web</li>
+      <li>Python</li>
+      <li>Lua</li>
+    </ul>
+  </section>
+
+ <section id="portfolio">
+    <h2>Portafolio</h2>
+    <div class="project">
+      <img src="img/image3.png" alt="Proyecto 1" style="width:590px;">
+      <h3>Desarrollo Five M</h3>
+      <p>Cuento con mucha experiencia respeto al ambito "Five M" (+2 Años Exp.), Tengo proyectos propios y ascesoramientos sobre esta rama.</p>
+    </div>
+    <div class="project">
+        <img src="img/FiveM-Logo.png" alt="Proyecto 2" style="width: 290px;">
+      <h3>Desarrollo WEB</h3>
+      <p>Diseño completo de paginas web, con ciertas funciones e interacciones utiles. Cumplo con ascesoramientos sobre este mismo ambito.</p>
+    </div>
+  </section> 
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 MenteByte. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
